@@ -28,7 +28,7 @@ function buildTable(data) {
 
 // Function to handle a click on the page
 function handleClick () {
-    d3.selectAll("#filter-btn").on("click", handleClick);
+    
     // Grab the datetime value from the filter
     let date = d3.select("#datetime").property("value");
     //  Set original data to be returned if no filter applied
@@ -46,7 +46,10 @@ function handleClick () {
     // @Note: If no date was entered, then filteredData will
     // just be the original tableData
     buildTable(filteredData);
-};
+}
+
+// Attach an event to listen for the form button
+d3.selectAll("#filter-btn").on("click", handleClick);
 
 // Build the table when the page loads
 buildTable(tableData);
