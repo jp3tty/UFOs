@@ -10,7 +10,7 @@ Loading the intial site will bring to to a page that looks like the following:
 )
 
 The data in the table can be sorted through 5 input fields: 
-!FilterExamples](https://github.com/jp3tty/UFOs/blob/main/Images/FilterExamples.PNG)
+![FilterExamples](https://github.com/jp3tty/UFOs/blob/main/Images/FilterExamples.PNG)
 
 * Sighting Dates
 * City
