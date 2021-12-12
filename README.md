@@ -6,14 +6,19 @@ A dynamic website was built to filter through a database of UFO sighting informa
 ## Results
 Loading the intial site will bring to to a page that looks like the following:
 
-![MainWebpage](https://github.com/jp3tty/UFOs/blob/main/Images/MainWebpage.PNG)
+![MainWebpage](https://github.com/jp3tty/UFOs/blob/main/Images/MainWebpage.PNG
+)
 
-Users are 
+The data in the table can be sorted through 5 input fields: 
+!FilterExamples](https://github.com/jp3tty/UFOs/blob/main/Images/FilterExamples.PNG)
+
 * Sighting Dates
 * City
 * State
 * Country
 * Shape
+
+
 
 ## Summary
 (The summary addresses one drawback of this webpage)
