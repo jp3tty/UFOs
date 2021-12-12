@@ -1,14 +1,14 @@
 # UFOs
 
 ## Overview
-(The purpose is well defined)
-A dynamic website was built to filter UFO sightings information from an 
-
-The purpose of this exersice was to build a dynamic website that filters multiple search criteria on UFO sightings. The information is accessed though a JavaScript "data" file. Another JavaScript "app" file sorts through the data to return relevant queries to update the html table.
+A dynamic website was built to filter through a database of UFO sighting information. Under the title, a body of text desribes the intent of the website and a number input elements, on the left, provide the user with the means to search through the data. The table of sighting data is loaded to the right of search elements. Specific information can be input to provide sighting dates, locations, or shapes. 
 
 ## Results
-(There is a description of how to perform a search, with images)
-A dynamic website that filters:
+Loading the intial site will bring to to a page that looks like the following:
+
+![MainWebpage](https://github.com/jp3tty/UFOs/blob/main/Images/MainWebpage.PNG)
+
+Users are 
 * Sighting Dates
 * City
 * State
