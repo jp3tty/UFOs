@@ -69,29 +69,6 @@ function updateFilters() {
       filterData = filterData.filter(row => row[key] === value);
     });
     
-    // for (var key in filters) {
-    //   if (key == 'datetime')
-    //   {
-    //     filterData = filterData.filter(row => row.datetime == filters[key])
-    //   }
-    //   else if (key == 'city')
-    //   {
-    //     filterData = filterData.filter(row => row.city == filters[key])
-    //   }
-    //   else if (key == 'state')
-    //   {
-    //     filterData = filterData.filter(row => row.state == filters[key])
-    //   }
-    //   else if (key == 'country')
-    //   {
-    //     filterData = filterData.filter(row => row.country == filters[key])
-    //   }
-    //   else if (key == 'shape')
-    //   {
-    //     filterData = filterData.filter(row => row.shape == filters[key])
-    //   };
-    // };
-  
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filterData);
   }
